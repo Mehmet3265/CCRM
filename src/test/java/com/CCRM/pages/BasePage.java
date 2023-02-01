@@ -44,9 +44,9 @@ public abstract class BasePage {
 
 
 
-    /*
-     * Login Method
-     * */
+    public void login(String email,String password){
+
+    }
 
 
 
