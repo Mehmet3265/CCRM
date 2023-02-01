@@ -1,2 +1,9 @@
-package com.CCRM.pages;public class LoginPage {
+package com.CCRM.pages;
+public class LoginPage extends BasePage {
+
+
+
+
+
+
 }
