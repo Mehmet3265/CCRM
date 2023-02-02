@@ -20,8 +20,8 @@ public class Login_StepDef_YAkgun {
         Driver.getDriver().manage().window().maximize();
     }
 
-    @When("User enters existing email {string} and password {string}")
-    public void user_enters_existing_email_and_password(String email, String password) {
+    @When("User enters existing email {string} and password {string} and login")
+    public void user_enters_existing_email_and_password_and_login(String email, String password) {
         loginPage = new LoginPage();
         loginPage.login(email, password);
     }
